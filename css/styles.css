@@ -10999,7 +10999,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 15rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -11011,6 +11011,7 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
