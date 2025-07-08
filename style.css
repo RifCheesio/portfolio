@@ -1,0 +1,164 @@
+:root{
+    --w-image: 80rem;
+    --calculate: calc(3/2);
+}
+
+.body-style{
+ background-image: url(imgs/background.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#main-content{
+    width: 76rem;
+    height: 70rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    background-color: #91C8E4;
+    border: 1px solid;
+}
+
+.navbar-style{
+    background-color: #749BC2;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px black solid;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.navbar-link:hover{
+    background-color: lightcyan;
+}
+
+.col-sm{
+    padding: 1rem;
+}
+
+.current-page{
+    background-color: lightskyblue;
+}
+
+.current-page-left{
+    background-color: lightskyblue;
+    border-top-left-radius: 0.5rem;
+}
+
+
+.current-page-right{
+    background-color: lightskyblue;
+    border-top-right-radius: 0.5rem;
+}
+
+.jumbotron-pic{
+    height: 34rem;
+    overflow: hidden;
+}
+
+.main-pic{
+    width: 100%;
+    margin-top: -32rem;
+}
+
+.navbar-link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.vertical-line{
+    border-right: 2px solid #749BC2;
+    
+}
+
+.lead{
+    padding-left: 0.2rem;
+}
+
+.about-text{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.project-list{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.project-item{
+    height: 20rem;
+    margin: 2rem;
+}
+
+.project-item:hover{
+    transition: all .2s ease-in;
+    background-color: lightskyblue;
+}
+
+.project-item{
+    background-color: #749BC2;
+    transition: all .2s ease-out;
+
+}
+
+.project-image{
+    height: 10rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.close{
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+    border: 0;
+}
+.modal-body{
+    text-align: center;
+}
+
+.mochi-img-container{
+    height: 600px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+#mochi-pic{
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mochitxt{
+    text-align: center;
+}
+
+.extras-cont .col-sm{
+    margin: 0.5rem;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #89baeb;
+}
+
+#hinttxt{
+    text-align: center;
+    font-style: italic;
+    color: lightgray;
+    opacity: 40%;
+}
+
+.thinking::after {
+    display: inline-block;
+    animation: dotty steps(1,end) 3s infinite;
+    content: '';
+}
+    
+@keyframes dotty {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+}
